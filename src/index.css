@@ -1,1 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
 @import "tailwindcss";
+
+
+
+@theme  {
+  --font-roboto: "Roboto", sans-serif; 
+  --font-display: "Oswald", "sans-serif", "Roboto"; 
+  --font-initial: initial;
+   --font-primary: "Oswald", "sans-serif";
+   --font-secondary: "Poppins", "serif";
+
+
+    --color-primary: var(--color-red-500);
+    --color-secondary: var(--color-blue-500);
+    --color-twitterblue: #1DA1F2;
+    --color-orange-500: #ffa500; 
+
+
+    --breakpoint--*: initial;
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 976px;
+
+
+  }
