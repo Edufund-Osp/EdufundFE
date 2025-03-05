@@ -1,4 +1,3 @@
-import React from 'react'
 import startcampaign from "../../assets/startcampaign.svg";
 import sharewithnetwork from "../../assets/sharewithnetwork.svg";
 import raisefunds from "../../assets/raisefunds.svg";

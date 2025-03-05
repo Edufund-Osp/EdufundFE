@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import facebook from "../assets/facebook.svg"
 import google from "../assets/google.svg"

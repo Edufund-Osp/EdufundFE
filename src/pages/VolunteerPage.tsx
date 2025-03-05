@@ -1,4 +1,3 @@
-import React from 'react'
 import Volunteer from '../components/Volunteer'
 
 function VolunteerPage() {
