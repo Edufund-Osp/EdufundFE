@@ -19,8 +19,8 @@ function HowItWorks() {
       <div className='flex flex-col w-[390px] border-white rounded-2xl bg-white p-4 '>
       <div className='flex flex-col items-center justify-center bg-[#11451D] w-full h-[111px] border rounded-2xl'>
           <img src={startcampaign}/>
-          <p>03</p>
-         <p>Start a Campaign</p></div>
+          <p className='text-white'>01</p>
+         <p className='text-white'>Start a Campaign</p></div>
          <div>
          <p><strong>•</strong> Create an account and fill in your basic details.</p>
           <p><strong>•</strong> Explain why you need help—whether it's for school supplies, a project, or an event. Share your story so people understand why it's important.</p> 
@@ -32,8 +32,8 @@ function HowItWorks() {
           <div className='flex flex-col w-[390px] border-white rounded-2xl bg-white p-4'>
           <div className='flex flex-col items-center justify-center bg-[#11451D]  w-full h-[111px] border rounded-2xl'>
           <img src={sharewithnetwork}/>
-          <p>03</p>
-         <p>Share with your network</p></div>
+          <p className='text-white'>02</p>
+         <p className='text-white'>Share with your network</p></div>
          <div>
          <p><strong>•</strong> Create an account and fill in your basic details.</p>
           <p><strong>•</strong> Explain why you need help—whether it's for school supplies, a project, or an event. Share your story so people understand why it's important.</p> 
@@ -44,8 +44,8 @@ function HowItWorks() {
           <div className='flex flex-col w-[390px]  rounded-2xl bg-white border-white p-4'>
           <div className='flex flex-col items-center justify-center bg-[#11451D]  w-full h-[111px]  rounded-2xl'>
           <img src={raisefunds}/>
-          <p>03</p>
-         <p>Raise Funds</p></div>
+          <p className='text-white'>03</p>
+         <p className='text-white'> Raise Funds</p></div>
          <div>
          <p><strong>•</strong> Create an account and fill in your basic details.</p>
           <p><strong>•</strong> Explain why you need help—whether it's for school supplies, a project, or an event. Share your story so people understand why it's important.</p> 

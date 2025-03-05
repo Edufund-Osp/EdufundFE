@@ -6,6 +6,7 @@ import angleright from "../../assets/angleright.svg";
 import pupilboys from "../../assets/pupilboys.svg";
 import smallgirl from "../../assets/smallgirl.svg";
 import graduands from "../../assets/graduands.svg";
+import blackandwhitestudents from "../../assets/balckandwhitestudents.svg";
 
 
 const projects = [
@@ -15,7 +16,7 @@ const projects = [
     title: "Special Needs Education Support",
     raised: 50000,
     goal: 150000,
-    donations: 105,
+   
   },
   {
     id: 2,
@@ -23,7 +24,7 @@ const projects = [
     title: "Building Brighter Classrooms",
     raised: 30900,
     goal: 50000,
-    donations: 190,
+   
   },
   {
     id: 3,
@@ -31,7 +32,7 @@ const projects = [
     title: "Empowering Future Scholars",
     raised: 50000,
     goal: 150000,
-    donations: 105,
+   
   },
   {
     id: 4,
@@ -39,7 +40,7 @@ const projects = [
     title: "College Dream Fund",
     raised: 50000,
     goal: 150000,
-    donations: 105,
+   
   },
   {
     id: 5,
@@ -47,19 +48,23 @@ const projects = [
     title: "Back-to-School Supplies",
     raised: 50000,
     goal: 150000,
-    donations: 105,
+   
   },
 ];
 
 function ExploreProject() {
   return (
     <div className="mb-6">
-      <div className="flex gap-6 bg-[#B2ECF5] items-center justify-center p-4 ">
-        <div className="font-400 text-[18px]">Explore Project:</div>
-        <div className="text-green-600 underline font-sans ">Featured</div>
-        <div>Newest</div>
-        <div>Nearly Funded</div>
-        <div>Completed</div>
+      <div className="flex justify-center items-center gap-6 bg-[#11451D] p-4 ">
+        <div className="flex flex-col gap-4">
+        <div className="font-400 text-white font-roboto font-600 text-[24px] leading-[28.8px]">Why Donate?</div>
+        <div className="text-[#FFFFFF] font-roboto font-400 text-[16px] leading-[19.2px] w-[608px] h-[38px] ">Empowering students through community support. We provide a platform where communities come together to support education for all</div>
+        <button className="bg-[#28A745] text-white w-[119px] h-[43px] border rounded" >Learn More</button>
+        </div> 
+        <div>
+
+          <img src={blackandwhitestudents}/>
+        </div>
       </div>
 
       <div className="flex space-y-5 space-x-5  justify-center p-8">
@@ -71,18 +76,16 @@ function ExploreProject() {
                 <img src={project.image} alt={project.title} />
                 <div>{project.title}</div>
                 <div>
-                  ${project.raised} <p>raised of ${project.goal} goal</p>
+                  ${project.raised} 
                 </div>
-                <div className="w-full bg-gray-200 h-2 rounded">
+                <div className="w-full  h-2 rounded">
                   <div
                     className="bg-green-500 h-2 rounded"
                     style={{ width: `${percentage}%` }}
                   ></div>
                 </div>
-                <div className="flex">
-                  <div className="w-[70%]">{project.donations} Donations</div>
-                  <div>${project.goal - project.raised} to go</div>
-                </div>
+                  <div className=" text-right text-[#A78819]">${project.goal - project.raised}</div>
+               
               </div>
             );
           })}
@@ -99,7 +102,7 @@ function ExploreProject() {
                   <img src={project.image} alt={project.title} />
                   <div>{project.title}</div>
                   <div>
-                    ${project.raised} <p>raised of ${project.goal} goal</p>
+                    ${project.raised} 
                   </div>
                   <div className="w-full h-2 rounded">
                     <div
@@ -107,10 +110,10 @@ function ExploreProject() {
                       style={{ width: `${percentage}%` }}
                     ></div>
                   </div>
-                  <div className="flex">
-                    <div className="w-[70%]">{project.donations} Donations</div>
-                    <div>${project.goal - project.raised} to go</div>
-                  </div>
+                 
+                   
+                    <div className="text-right text-[#A78819]">${project.goal - project.raised} </div>
+                
                 </div>
               );
             })}

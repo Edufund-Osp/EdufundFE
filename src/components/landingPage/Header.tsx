@@ -14,7 +14,7 @@ const HeaderContainer = styled.div`
 const NavLinks = styled.div`
   display: flex;
   gap: 6px;
-  color: #FFFFFF;
+  
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 19.2px;
@@ -48,11 +48,11 @@ function Header() {
   return (
     <HeaderContainer>
       <div>
-        <img src={Logo} alt="Logo" />
+        <p className="text-[#28A745] font-roboto text-[28px] font-700">EduFund</p>
       </div>
       <NavLinks>
         <div>Start a Fundraiser</div>
-        <button onClick={()=>navigate("/start-donating")}>Donate</button>
+        
         <button onClick={()=>navigate("/volunteer")}>Volunteer</button>
         <button onClick={()=>navigate("/aboutus")}>About us</button>
       </NavLinks>

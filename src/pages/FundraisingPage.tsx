@@ -1,4 +1,3 @@
-import React from 'react'
 import Fundraising from '../components/Fundraising'
 
 function FundraisingPage() {
