@@ -6,7 +6,7 @@ import Footer from '../components/landingPage/Footer'
 
 function LandingPage() {
   return (
-    <div className='bg-[#DCF7E2]'>
+    <div className='bg-white'>
       
       <Hero />
       <ExploreProjext/>

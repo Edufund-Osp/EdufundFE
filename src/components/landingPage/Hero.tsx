@@ -31,7 +31,7 @@ const Title = styled.h1`
   font-weight: 700;
   font-size: 64px;
   line-height: 76.8px;
-  color: white;
+  color: black;
   margin: 0;
 `;
 
@@ -50,10 +50,8 @@ const Subtitle = styled.span`
 function Hero() {
   const navigate = useNavigate();
   return (
-    <div className="h-screen bg-cover bg-center"
-    style={{
-        backgroundImage: `url(${LandingPageBg})` 
-    }}
+    <div className="h-screen bg-cover bg-center bg-white"
+   
     >
     <Header/>
     <Container>
@@ -62,6 +60,8 @@ function Hero() {
           Empower <HighlightedText>Education</HighlightedText> Through
         </Title>
         <Title>Crowdfunding</Title>
+
+       
       </TitleWrapper>
       <Subtitle>Join the community supporting education across the globe.</Subtitle>
 
