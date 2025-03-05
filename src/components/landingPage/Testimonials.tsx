@@ -1,4 +1,3 @@
-import React from 'react';
 import johnson from "../../assets/johnson.svg";
 import daniel from "../../assets/daniel.svg";
 import sarah from "../../assets/sarah.svg";

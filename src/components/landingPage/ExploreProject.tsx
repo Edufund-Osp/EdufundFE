@@ -1,4 +1,3 @@
-import React from "react";
 import children from "../../assets/children.svg";
 import lonly from "../../assets/lonlygirl.svg";
 import angleleft from "../../assets/angleleft.svg";

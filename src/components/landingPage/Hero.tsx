@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import searchbutton from "../../assets/searchbutton.svg"
 import Header from "./Header";
-import LandingPageBg from "../../assets/LandingPageBg.jpeg"
 
 
 const Container = styled.div`
