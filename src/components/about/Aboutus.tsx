@@ -4,7 +4,7 @@ import HowItWorks from "../landingPage/HowItWorks";
 import OurImpact from "./OurImpact";
 import Testimonials from "../landingPage/Testimonials";
 import Footer from "../landingPage/Footer";
-import MeetTeam from "./Meetteam";
+import MeetTeam from "./MeetTeam";
 
 function Aboutus() {
   return (
