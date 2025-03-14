@@ -1,4 +1,4 @@
-import Aboutus from '../components/Aboutus'
+import Aboutus from '../components/about/Aboutus'
 
 function AboutusPage() {
   return (

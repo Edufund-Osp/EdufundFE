@@ -66,15 +66,17 @@ function ExploreProject() {
         </div>
       </div>
 
-      <div className="flex space-y-5 space-x-5  justify-center p-8">
-        <div className="bigcarouselcard bg-white p-4">
+      <div className="flex space-y-5 space-x-5 justify-center p-15">
+        <div className="  bigcarouselcard p-4 bg-white rounded-[8px] border-0 hover:border-[1px] hover:border-[#c0c4c9] hover:shadow-md hover:shadow-[#808991] ">
           {projects.slice(0, 1).map((project) => {
             const percentage = (project.raised / project.goal) * 100;
             return (
-              <div key={project.id}>
+              <div 
+              className="flex flex-col gap-2"
+              key={project.id}>
                 <img src={project.image} alt={project.title} />
-                <div>{project.title}</div>
-                <div>
+                <div className="text-[#11451D] font-roboto text-[18px] leading-[21.6px] font-600">{project.title}</div>
+                <div className="text-[#17A2B8] font-roboto text-[18px] leading-[21.6px] font-600">
                   ${project.raised} 
                 </div>
                 <div className="w-full  h-2 rounded">
@@ -90,17 +92,15 @@ function ExploreProject() {
           })}
         </div>
 
-        <div className="smallcarouselcard bg-white items-center p-4 flex flex-col w-[608px]">
-         
-
-          <div className="grid grid-cols-2 gap-2">
+        <div className="smallcarouselcard  items-center gap-6 flex flex-col">
+          <div className="grid grid-cols-2 gap-4">
             {projects.slice(1).map((project) => {
               const percentage = (project.raised / project.goal) * 100;
               return (
-                <div key={project.id}>
+                <div className="flex flex-col gap-2 bg-white rounded-[8px] p-4 border-0 hover:border-[1px] hover:border-[#c0c4c9] hover:shadow-md hover:shadow-[#808991]" key={project.id}>
                   <img src={project.image} alt={project.title} />
-                  <div>{project.title}</div>
-                  <div>
+                  <div className="text-[#11451D] font-roboto text-[18px] leading-[21.6px] font-600">{project.title}</div>
+                  <div className="text-[#17A2B8] font-roboto text-[18px] leading-[21.6px] font-600">
                     ${project.raised} 
                   </div>
                   <div className="w-full h-2 rounded">
@@ -117,8 +117,8 @@ function ExploreProject() {
               );
             })}
           </div>
-          <div className="items-center bg-white justify-center flex">
-            <button>
+          <div className="items-center justify-center flex">
+            <button className="  w-[48px] h-[48px] rounded-full">
               <img src={angleleft} alt="Previous" />
             </button>
             <button>
