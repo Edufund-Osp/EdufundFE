@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 
 @import "tailwindcss";
@@ -7,6 +8,7 @@
 
 @theme  {
   --font-roboto: "Roboto", sans-serif; 
+  --font-montserrat: "Montserrat", sans-serif;
   --font-display: "Oswald", "sans-serif", "Roboto"; 
   --font-initial: initial;
    --font-primary: "Oswald", "sans-serif";
@@ -18,6 +20,9 @@
     --color-twitterblue: #1DA1F2;
     --color-orange-500: #ffa500; 
 
+    --Neutral-Neutral1000: #2C3033;
+
+    --Secondary-Secondary100: #D9F6FA;
 
     --breakpoint--*: initial;
     --breakpoint-sm: 480px;
